@@ -1,0 +1,29 @@
+{
+  "name": "starwars-names",
+  "version": "1.0.0",
+  "description": "Get random Star Wars names",
+  "main": "src/index.js",
+  "dependencies": {
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misidoro/starwars-names.git"
+  },
+  "keywords": [
+    "random",
+    "starwars",
+    "star",
+    "wars"
+  ],
+  "author": "Miguel Isidoro <mac.isidoro@gmail.com> (https://misidoro.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/misidoro/starwars-names/issues"
+  },
+  "homepage": "https://github.com/misidoro/starwars-names#readme"
+}

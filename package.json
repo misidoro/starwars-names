@@ -1,6 +1,6 @@
 {
   "name": "real-starwars-names",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "dependencies": {

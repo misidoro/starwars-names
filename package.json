@@ -1,18 +1,28 @@
 {
   "name": "real-starwars-names",
-  "version": "1.4.0-beta.0",
+  "version": "0.0.0-development",
   "description": "Get random Star Wars names",
   "main": "src/index.js",
   "dependencies": {
     "unique-random-array": "^1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "commitizen": "2.10.1",
+    "cz-conventional-changelog": "2.1.0",
+    "mocha": "^5.2.0",
+    "semantic-release": "^15.5.0",
+    "travis-deploy-once": "^5.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/misidoro/starwars-names.git"
+    "url": "https://github.com/misidoro/starwars-names.git"
   },
   "keywords": [
     "random",
@@ -25,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/misidoro/starwars-names/issues"
   },
-  "homepage": "https://github.com/misidoro/starwars-names#readme"
+  "homepage": "https://github.com/misidoro/starwars-names#readme",
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }
 }
